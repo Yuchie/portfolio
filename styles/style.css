@@ -1,0 +1,118 @@
+/*
+Name: Yuqian Sun
+Date: 10.22.2017
+Section: CSE 154 AD
+
+This is the style.css page for my portfolio of Creative Project.
+*/
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	width: 70%;
+	margin: 0 auto;
+	color: rgb(10, 10, 10);
+}
+
+#header {
+	font-family: "Dosis", sans-serif;
+}
+
+ul.menu {
+  padding:0;
+  font-size:0px;
+  text-align: right;
+}
+
+ul.menu > li {
+	width:118px;
+	display: inline-block;
+	text-align: center;
+	font-size:16px;
+	margin: 0px;
+	text-decoration: none;
+}
+
+.hovered {
+	background-color: #b30047;
+	color: #FFFFFF;
+}
+
+.contents {
+	display: flex;
+}
+
+.sidebar {
+	flex-basis: 20%;
+	padding: 1rem;
+}
+
+#profilephoto {
+	width: 200px;
+}
+
+.description {
+	font-size: 12px;
+	text-indent: 0px;
+}
+
+.main {
+	font-size: 18px;
+	flex-basis: 80%;
+	padding: 1rem;
+}
+
+/* style used in profile */
+.category {
+	padding-bottom: 15px;
+}
+
+.category h3 {
+	text-shadow: -2px 5px #EEEEEE;
+	padding: 0px;
+	margin-bottom: 0.5rem;
+}
+
+#profile ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.category a{
+	color: #b30047;
+	text-decoration: none;
+}
+
+.category a:hover{
+	color: #b30047;
+	text-decoration: underline;
+}
+
+/* style used in contact.html */
+#mail { 
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+#mailcontents {
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+#mailcontents.default {
+	color: gray;
+}
+
+#mailcontents.input {
+	color: black;
+}
+
+#submit {
+	font-size: 1rem;
+}
+
+footer p {
+	color: #BBBBBB;
+	font-size: 12px;
+	text-align: center;
+}

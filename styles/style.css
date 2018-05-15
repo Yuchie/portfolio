@@ -1,9 +1,6 @@
 /*
 Name: Yuqian Sun
 Date: 10.22.2017
-Section: CSE 154 AD
-
-This is the style.css page for my portfolio of Creative Project.
 */
 body {
 	font-family: "Open Sans", sans-serif;
@@ -35,6 +32,7 @@ ul.menu > li {
 .hovered {
 	background-color: #b30047;
 	color: #FFFFFF;
+	cursor: pointer;
 }
 
 .contents {
@@ -53,6 +51,16 @@ ul.menu > li {
 .description {
 	font-size: 12px;
 	text-indent: 0px;
+}
+
+.linksToSNS {
+	text-decoration: none;
+	color: #AAAAAA;
+}
+
+.linksToSNS:hover {
+	text-decoration: none;
+	color: #b30047;
 }
 
 .main {

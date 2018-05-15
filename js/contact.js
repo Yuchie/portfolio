@@ -1,9 +1,6 @@
 /*
 Name: Yuqian Sun
 Date: 10.22.2017
-Section: CSE 154 AD
-
-This is the contact.js page for my portfolio of Creative Project.
 */
 
 "use strict";
